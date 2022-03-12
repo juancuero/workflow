@@ -1,5 +1,7 @@
 name: Primer Workflow
-on: [push]
+on:
+  push:
+    branches: [ develop ]
 jobs:
   Primera-Etapa:
     runs-on: ubuntu-latest
